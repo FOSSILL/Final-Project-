@@ -1,379 +1,156 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
-        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:700" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css" type="text/css" />
-        <link rel="stylesheet" href="https://unpkg.com/shards-ui@latest/dist/css/shards.min.css" type="text/css" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" type="text/css" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
-        <link rel="stylesheet" href="infinite-slider.css" type="text/css" />
-        <link rel="stylesheet" href="style.css" type="text/css" />
-        <script src="https://code.jquery.com/jquery-2.2.0.min.js" integrity="sha256-ihAoc6M/JPfrIiIeayPE9xjin4UWjsx2mjW/rtmxLM4=" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/ui/1.12.0-rc.2/jquery-ui.js" integrity="sha256-6HSLgn6Ao3PKc5ci8rwZfb//5QUu3ge2/Sw9KfLuvr8=" crossorigin="anonymous"></script>
-    </head>
-    <body>
+
+<head>
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+
+	<body>
+
+		<ul>
+			<li><a>Home</a></li>
+			<li><a>About</a>
+				<ul>
+					<li><a></a></li>
+				</ul>
+
+			</li>
+
+
+
+
+
+
+
+
+
+
+		</ul>
+
+<section class="services container">
+
+
+        <h2>Services</h2>
+        <p>Unique commoditys only available at our bar</p>
+        <hr></hr>
+
+
+        <div class="row">
+     
+            <div class="col-md-3">
+                <i class="fas fa-heartbeat"></i> <br>
+                <span><strong>Healthy</strong></span>
+                <p>
+                   Our juice delivers vitamins and minerals which keeps you fit and on the run.
+                </p>
+
+            </div>
+
+            <div class="col-md-3">
+                <i class="fas fa-leaf"></i><br>
+                <span><strong>Organic</strong></span>
+                <p>
+                    Organic juice reduces health risks to people by minimizing exposure to toxic chemicals in food. 
+                </p>
+
+            </div>
+            
+            <div class="col-md-3">
+                <i class="fas fa-dollar-sign"></i> <br>
+                <span><strong>Low Cost</strong></span>
+                <p>
+                    Cheapest juice bar ever with drinks starting as low as $12.99. 
+                </p>
+
+            </div>
+
+			<div class="col-md-3">
+                <i class="fas fa-seedling"></i> <br>
+                <span><strong>Vegan Friendly</strong></span>
+                <p>
+                    Only bar in New York City which offers a variety of vegetarian and vegan juices.
+                </p>
+
+            </div>
+
+
+        </div>
+
     
 
-<header>  
- <!-- Site Wrapper -->
-<div class="wrapper--site">
-	<!-- Header -->
-	<header class="header">
-		<!-- Menu -->
-		<div class="header__menu">
-			<div class="container-fluid wrapper">
-				<a class="logo" href="javascript:void(0);">
-					<img src="https://cdn.dribbble.com/users/11880/screenshots/1302226/loco.png">
-				</a>
 
-				<!-- Navigation -->
-				<nav class="nav">
-					<ul>
-						<li class="nav__item d-none d-md-inline-block">
-							<a class="nav__link" href="#home">Home</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="#reservation">Reservations</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="#menu">Menu</a>
-						</li>
-						<li class="nav__item d-none d-md-inline-block">
-							<a class="nav__link" href="javascript:void(0);">Blog</a>
-						</li>
-						<li class="nav__item d-none d-md-inline-block">
-							<a class="nav__link" href="javascript:void(0);">Features</a>
-						</li>
-						<li class="nav__item">
-							<a class="nav__link" href="javascript:void(0);">Contact</a>
-						</li>
-					</ul>
-				</nav><!-- Navigation -->
-			</div>
-		</div><!-- Menu -->
-	</header><!-- Header -->
 
-	<!-- Main Content -->
-	<main>
-		<!-- Home -->
-		<section class="home parallax" id="home">
-			<div class="container-fluid wrapper">
-				<div class="home__wrapper">
-					<h3>Welcome to</h3>
-					<h2>Loco Juice</h2>
-					<span>5 Elizabeth Drive Elmhurst, NY 11373</span>
-					<div class="arrow arrow--home"></div>
-					<a class="button button--home button--shadow" href="#menu">Menu</a>
-				</div>
-				<a class="scroll-down d-none d-lg-block" href="#about">
-					<div class="wrapper--scroll-down anim--scroll-down">
-						<svg width="20" height="19" viewBox="0 0 20 19" xmlns="http://www.w3.org/2000/svg">
-							<path d="M20,1.6c0,0.2-0.1,0.3-0.2,0.5l-9.3,9.2c-0.1,0.1-0.3,0.2-0.5,0.2s-0.3-0.1-0.5-0.2L0.2,2.1
-		C0.1,2,0,1.8,0,1.6c0-0.2,0.1-0.3,0.2-0.5l1-1C1.3,0.1,1.5,0,1.7,0C1.8,0,2,0.1,2.1,0.2L10,7.9l7.9-7.7C18,0.1,18.2,0,18.3,0
-		c0.2,0,0.3,0.1,0.5,0.2l1,1C19.9,1.3,20,1.5,20,1.6z M20,9.2c0,0.2-0.1,0.3-0.2,0.5l-9.3,9.2C10.3,18.9,10.2,19,10,19
-		s-0.3-0.1-0.5-0.2L0.2,9.6C0.1,9.5,0,9.4,0,9.2C0,9,0.1,8.9,0.2,8.7l1-1c0.1-0.1,0.3-0.2,0.5-0.2c0.2,0,0.3,0.1,0.5,0.2l7.9,7.7
-		l7.9-7.7c0.1-0.1,0.3-0.2,0.5-0.2c0.2,0,0.3,0.1,0.5,0.2l1,1C19.9,8.9,20,9,20,9.2z" fill="#E4BB7A">
-						</svg>
-					</div>
-				</a>
-			</div>
-		</section><!-- Home -->
+    </section>
 
-		<!-- About Us -->
-		<section class="about" id="about">
-			<div class="container-fluid wrapper" data-scroll-reveal>
-				<img class="about__image" src="http://www.jamesarc.com/work/steakville/assets/img/about-1.jpg">
-				<img class="about__image" src="http://www.jamesarc.com/work/steakville/assets/img/about-2.jpg">
-				<div class="about__box"></div>
-				<div class="about__wrapper">
-					<h3>Discover</h3>
-					<h2>Our History</h2>
-					<p>
-						When people drink juice, they do not expect to drink products filled with   preservatives and artificial flavors so that they would taste like the real thing. Our juice is Loco Juice, all extracted from the source. We hope our customers like it for what it is and what it should be.
-					</p>
-				</div>
-			</div>
-		</section><!-- About Us -->
 
-		<!-- Menu -->
-		<section class="menu parallax" id="menu">
-			<div class="container-fluid wrapper">
-				<h3 data-scroll-reveal>Juiceville</h3>
-				<h2 data-scroll-reveal>Our Menu</h2>
-				<p data-scroll-reveal>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-				</p>
-				<div class="menu__item-group" data-scroll-reveal>
-					<div class="row">
-						<div class="col-12 col-md-6">
-							<div class="menu__item">
-								<img class="menu__image" src="http://www.jamesarc.com/work/steakville/assets/img/menu/menu-1.png">
-								<div class="menu__caption">
-									<span class="menu__name">Earthy Green Juice</span>
-									<span class="menu__desc">Nutella, Apple, Strawberry, Sliced Almonds.</span>
-									<span class="menu__price">$12.00</span>
-								</div>
-							</div>
-							<div class="menu__item">
-								<img class="menu__image" src="http://www.jamesarc.com/work/steakville/assets/img/menu/menu-2.png">
-								<div class="menu__caption">
-									<span class="menu__name">Sunny Yellow Juice</span>
-									<span class="menu__desc">The most tender of all steaks!</span>
-									<span class="menu__price">$52.99</span>
-								</div>
-							</div>
-							<div class="menu__item">
-								<img class="menu__image" src="http://www.jamesarc.com/work/steakville/assets/img/menu/menu-3.png">
-								<div class="menu__caption">
-									<span class="menu__name">Jubilant Red Juice</span>
-									<span class="menu__desc">A fresh filet of North Atlantic salmon is rubbed...</span>
-									<span class="menu__price">$42.99</span>
-								</div>
-							</div>
-							<div class="menu__item">
-								<img class="menu__image" src="http://www.jamesarc.com/work/steakville/assets/img/menu/menu-4.png">
-								<div class="menu__caption">
-									<span class="menu__name">Mozzarella Moons</span>
-									<span class="menu__desc">Mozzarella cheese.</span>
-									<span class="menu__price">$14.99</span>
-								</div>
-							</div>
-							<div class="menu__item">
-								<img class="menu__image" src="http://www.jamesarc.com/work/steakville/assets/img/menu/menu-5.png">
-								<div class="menu__caption">
-									<span class="menu__name">Boneless Buffalo Wings</span>
-									<span class="menu__desc">These wings are legendary!</span>
-									<span class="menu__price">$32.99</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-12 col-md-6">
-							<div class="menu__item">
-								<img class="menu__image" src="http://www.jamesarc.com/work/steakville/assets/img/menu/menu-6.png">
-								<div class="menu__caption">
-									<span class="menu__name">Boneless Buffalo Wings</span>
-									<span class="menu__desc">These wings are legendary!</span>
-									<span class="menu__price">$32.99</span>
-								</div>
-							</div>
-							<div class="menu__item">
-								<img class="menu__image" src="http://www.jamesarc.com/work/steakville/assets/img/menu/menu-7.png">
-								<div class="menu__caption">
-									<span class="menu__name">Poblano Queso Spinach Dip</span>
-									<span class="menu__desc">Creamy queso is infused with spicy Poblano peppers.</span>
-									<span class="menu__price">$14.99</span>
-								</div>
-							</div>
-							<div class="menu__item">
-								<img class="menu__image" src="http://www.jamesarc.com/work/steakville/assets/img/menu/menu-8.png">
-								<div class="menu__caption">
-									<span class="menu__name">Grilled Filet Mignon</span>
-									<span class="menu__desc">The most tender of all steaks!</span>
-									<span class="menu__price">$52.99</span>
-								</div>
-							</div>
-							<div class="menu__item">
-								<div class="menu__caption">
-									<span class="menu__name">Grilled Cedar Plank Salmon</span>
-									<span class="menu__desc">A fresh filet of North Atlantic salmon is rubbed...</span>
-									<span class="menu__price">$42.99</span>
-								</div>
-							</div>
-							<div class="menu__item">
-								<img class="menu__image" src="http://www.jamesarc.com/work/steakville/assets/img/menu/menu-10.png">
-								<div class="menu__caption">
-									<span class="menu__name">Mozzarella Moons</span>
-									<span class="menu__desc">Mozzarella cheese.</span>
-									<span class="menu__price">$14.99</span>
-								</div>
-							</div>
+
+
+		<footer class="container">
+
+			<div class="row">
+
+				<div class="col-md-4">
+
+					<h3>Contact Us</h3>
+
+					<div class="input-group mb-3">
+						<div class="input-group-prepend">
+							<p>
+							Loco Juice <br>
+							5 Elizabeth Drive<br> 
+							Elmhurst, NY 11373<br>
+							contact@Loco.com<br>
+							(202) 555-0190
+							</p>
 						</div>
 					</div>
+
 				</div>
-			</div>
-		</section><!-- Menu -->
 
-		<!-- Opening Hours -->
-		<section class="opening">
-			<div class="container-fluid wrapper">
-				<h3 data-scroll-reveal>You're Welcome</h3>
-				<h2 data-scroll-reveal>Opening Hours</h2>
-				<div class="opening__wrapper" data-scroll-reveal>
-					<div class="opening__image" style="background-image: url('http://www.jamesarc.com/work/steakville/assets/img/opening.jpg');"></div>
-					<div class="opening__hours">
-						<span>Dinner:</span>
-						<p>
-							Tuesday to Saturday <br class="d-none d-md-block d-xl-none">5.30 pm til 9.00 pm<br>
-							Bank Holiday Sundays <br class="d-none d-md-block d-xl-none">6pm til 9pm
-						</p>
-						<span>Lunch:</span>
-						<p>
-							Friday 12.30 til 2.30 pm<br>
-							Sunday 12.30 til 4 pm
-						</p>
+
+				<div class="col-md-4">
+					<h3>Subscribe to our Newsletter</h3>
+
+				<div class="input-group">
+						<textarea class="form-control" rows="1" cols="5" aria-label="With textarea" placeholder="Email"></textarea>
+						<button type="button" class="btn btn-success">Subscribe</button>
 					</div>
+
 				</div>
-			</div>
-		</section><!-- Opening Hours -->
 
-		<!-- Staff -->
-		<section class="staff parallax">
-			<div class="container-fluid wrapper">
-				<h3 data-scroll-reveal>Our Staff</h3>
-				<h2 data-scroll-reveal>Meet Our Chefs</h2>
-				<div class="staff__person-group">
-					<div class="row justify-content-around">
-						<div class="col-12 col-sm-5 col-md-3">
-							<div class="staff__person" data-scroll-reveal>	
-								<img class="staff__image" src="http://www.jamesarc.com/work/steakville/assets/img/staff/staff-1.png">
-								<span class="staff__name">James T. Kirk</span>
-								<span class="staff__position">Captain</span>
-								<div class="social__staff-group">
-									<a class="social__staff social__staff--facebook" href="javascript:void(0);"></a>
-									<a class="social__staff social__staff--linkedin" href="javascript:void(0);"></a>
-									<a class="social__staff social__staff--pinterest" href="javascript:void(0);"></a>
-								</div>
-								<p class="staff__desc">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-								</p>
-							</div>
-						</div>
-						<div class="col-12 col-sm-5 col-md-3">
-							<div class="staff__person" data-scroll-reveal>	
-								<img class="staff__image" src="http://www.jamesarc.com/work/steakville/assets/img/staff/staff-2.png">
-								<span class="staff__name">Leonard McCoy</span>
-								<span class="staff__position">Doctor, Not A...</span>
-								<div class="social__staff-group">
-									<a class="social__staff social__staff--facebook" href="javascript:void(0);"></a>
-									<a class="social__staff social__staff--linkedin" href="javascript:void(0);"></a>
-									<a class="social__staff social__staff--pinterest" href="javascript:void(0);"></a>
-								</div>
-								<p class="staff__desc">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-								</p>
-							</div>
-						</div>
-						<div class="col-12 col-sm-5 col-md-3">
-							<div class="staff__person" data-scroll-reveal>	
-								<img class="staff__image" src="http://www.jamesarc.com/work/steakville/assets/img/staff/staff-3.png">
-								<span class="staff__name">Hikaru Sulu</span>
-								<span class="staff__position">Pilot</span>
-								<div class="social__staff-group">
-									<a class="social__staff social__staff--facebook" href="javascript:void(0);"></a>
-									<a class="social__staff social__staff--linkedin" href="javascript:void(0);"></a>
-									<a class="social__staff social__staff--pinterest" href="javascript:void(0);"></a>
-								</div>
-								<p class="staff__desc">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
-								</p>
-							</div>
-						</div>
-					</div>
-			</div>
-		</section><!-- Staff -->
 
-		<!-- Reservation -->
-		<section class="reservation" id="reservation">
-			<div class="container-fluid wrapper">
-				<h3 data-scroll-reveal>Reservation</h3>
-				<h2 data-scroll-reveal>Book A Table</h2>
-				<div class="arrow arrow--reservation" data-scroll-reveal></div>
-				<p data-scroll-reveal>
-					Enjoy drinking our loco juice with your loved ones. Reserve a table for your loved ones today. 
-				</p>
-				<a class="button button--reservation button--shadow" href="javascript:void(0);" data-scroll-reveal>Book A Table</a>
-			</div>
-		</section><!-- Reservation -->
+				<div class="col-md-4">
+					<h3>Social Media</h3>
 
-		<!-- Reviews -->
-		<section class="reviews parallax">
-			<div class="container-fluid wrapper">
-				<img class="reviews__quote" src="http://www.jamesarc.com/work/steakville/assets/img/reviews-quote.png" data-scroll-reveal>
-				<div class="carousel carousel--reviews slide" id="carousel--reviews" data-ride="carousel" data-scroll-reveal>
-					<ol class="carousel-indicators">
-						<li data-target="#carousel--reviews" data-slide-to="0" class="active"></li>
-						<li data-target="#carousel--reviews" data-slide-to="1"></li>
-						<li data-target="#carousel--reviews" data-slide-to="2"></li>
-					</ol>
-					<div class="carousel-inner" role="listbox">
-						<div class="carousel-item active">
-							<div class="review__item">
-								<p class="review__desc">
-									"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”
-								</p>
-								<span class="review__name">John Wick</span>
-								<span class="review__position">Proffesional Cleaner</span>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="review__item">
-								<p class="review__desc">
-									"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”
-								</p>
-								<span class="review__name">Winston</span>
-								<span class="review__position">Hotel Manager</span>
-							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="review__item">
-								<p class="review__desc">
-									"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.”
-								</p>
-								<span class="review__name">Santino D’Antonio</span>
-								<span class="review__position">Cammora Lord</span>
-							</div>
-						</div>
-					</div>
-					<a class="carousel-control-prev" href="#carousel--reviews" role="button" data-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="sr-only">Previous</span>
-					</a>
-					<a class="carousel-control-next" href="#carousel--reviews" role="button" data-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="sr-only">Next</span>
-					</a>
+					<a href="https://www.facebook.com"><i class="fab fa-facebook-f footer social">Facebook</i>
+                </a>
+				<br>
+					
+					<a href="https://www.twitter.com"><i class="fab fa-twitter footer social">Twitter</i>
+                </a>
+				<br>
+				
+					<a href="https://www.linkedin.com"><i class="fab fa-linkedin footer social">Linkedin</i>
+                </a>
+				<br>
+					
+
+
+
 				</div>
-			</div>
-		</section><!-- Reservation -->
 
-		<!-- Subscribe -->
-		<section class="subscribe">
-			<div class="container-fluid wrapper">
-				<h2>Subscribe to Our Newsletter</h2>
-				<div class="arrow arrow--subscribe"></div>
-				<form class="form--subscribe" method="post">
-					<input class="input--subscribe js-clear-input" type="text" name="email" value="Email">
-					<input class="submit--subscribe button js-validate-email" type="submit" value="Subscribe">
-				</form> 
-			</div>
-		</section><!-- Subscribe -->
-	</main><!-- Main Content -->
-</div><!-- Site Wrapper -->
-<!--Contact--> 
-   
-  
-</footer>
 
-<footer>
-    
-</footer>
-     <script src="https:////cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.ui.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/0.1.12/wow.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.5/jquery.bxslider.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/esm/popper.js"></script>
-        <script src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.5.1/moment.min.js"></script>
-    <script type="text/javascript" src="script.js"></script>
-    </body>
+			</div>
+
+		</footer>
+
+
+
+
+	</body>
+
+
 </html>
